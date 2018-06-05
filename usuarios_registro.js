@@ -50,3 +50,9 @@ function passwordrepeat(){
 function enableSend(){
 	document.getElementById("crear").removeAttribute("disabled");
 }
+
+
+
+$(document).ready(function(){
+    $('[data-toggle="popoverTerminos"]').popover();   
+});
